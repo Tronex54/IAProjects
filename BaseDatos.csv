@@ -1,0 +1,31 @@
+Artículo,Categoría,Precio,Fecha de adquisición,Cantidad
+Pc Gamer,Electrónica,2000,2023-08-03,1
+Television 4K,Electrónica,1000,2023-07-20,1
+Telefono,Electrónica,500,2023-06-15,2
+Tablet,Electrónica,300,2023-05-20,3
+Consola de videojuegos,Electrónica,1500,2023-04-10,4
+Refrigerador,Electrodomésticos,1000,2023-03-01,5
+Lavadora,Electrodomésticos,500,2023-02-15,6
+Secadora,Electrodomésticos,600,2023-01-20,7
+Estufa,Electrodomésticos,700,2022-12-15,8
+Microondas,Electrodomésticos,400,2022-11-20,9
+Tostadora,Electrodomésticos,200,2022-10-15,10
+Cafetera,Electrodomésticos,300,2022-09-20,11
+Licuadora,Electrodomésticos,200,2022-08-15,12
+Procesadora de alimentos,Electrodomésticos,300,2022-07-20,13
+Batidora,Electrodomésticos,200,2022-06-15,14
+Aspiradora,Electrodomésticos,500,2022-05-20,15
+Ventilador,Electrodomésticos,300,2022-04-10,16
+Aire acondicionado,Electrodomésticos,1000,2022-03-01,17
+Calefactor,Electrodomésticos,500,2022-02-15,18
+Humidificador,Electrodomésticos,400,2022-01-20,19
+Deshumidificador,Electrodomésticos,600,2021-12-15,20
+Purificador de aire,Electrodomésticos,700,2021-11-20,21
+Silla de escritorio,Mobiliario,200,2021-10-15,22
+Mesa de escritorio,Mobiliario,300,2021-09-20,23
+Lampara,Mobiliario,200,2021-08-15,24
+Archivador,Mobiliario,300,2021-07-20,25
+Papelera,Mobiliario,200,2021-06-15,26
+Caja de herramientas,Herramientas,500,2021-05-20,27
+Escalera,Herramientas,600,2021-04-10,28
+Botiquin,Herramientas,700,2021-03-01,29
