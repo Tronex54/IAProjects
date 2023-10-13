@@ -191,18 +191,23 @@ objetivossorted = sorted(objetivosO,reverse=True)
 
 while objetivosO:
     # Calcula la distancia a todos los almacenes
-    objetivA = objetivossorted.pop(0)
+    objetivo_actualNum = objetivossorted.pop(0)
     distancias = [distancia(l.inicio, objetivo[1]) for objetivo in objetivosO]
 
     # Encuentra los almacenes con artículos pendientes
     almacenes_con_pendientes = [objetivo for objetivo in objetivosO if objetivo[0] > 0]
     
     # Si hay almacenes con artículos pendientes, selecciona el más cercano
+    
     if almacenes_con_pendientes:
-        objetivo_actual = min(almacenes_con_pendientes, key=lambda x: distancias[objetivosO.index(x)])
+        objetivo_actualD = min(almacenes_con_pendientes, key=lambda x: distancias[objetivosO.index(x)]) 
+      
+    print(objetivo_actualD,objetivo_actualNum)
         
-        if objetivA == objetivo_actual:
-            objetivo_actual = objetivA
+    if objetivo_actualNum == objetivo_actualD:
+        objetivo_actual = objetivo_actualNum
+    else:
+        objetivo_actual = objetivo_actualD    
             
     # Agrega el almacén actual a los objetivos completados y elimínalo de objetivosO
     objetivosCompletados.append(objetivo_actual[1])
